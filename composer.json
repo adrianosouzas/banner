@@ -1,0 +1,13 @@
+{
+    "name": "banner",
+    "description": "Módulo de banner para Magento 1.x",
+    "authors": [
+        {
+            "name": "Adriano Souza",
+            "email": "adrianos_s@yahoo.com.br"
+        }
+    ],
+    "require": {
+        "php": ">=5.2.8"
+    }
+}
