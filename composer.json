@@ -7,7 +7,10 @@
             "email": "adrianos_s@yahoo.com.br"
         }
     ],
-    "require": {
-        "php": ">=5.2.8"
+    "extra":{
+        "map":[
+            ["app/etc/modules/Koder_Banner.xml", "app/etc/modules/Koder_Banner.xml"],
+            ["app/code/local/Koder/Banner/", "app/code/local/Koder/Banner/"]
+        ]
     }
 }

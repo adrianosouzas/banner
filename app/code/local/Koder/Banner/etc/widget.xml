@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<widgets>
+    <banner type="banner/home" translate="label" module="banner">
+        <name>Banners</name>
+        <description>Exibe o banners da home.</description>
+        <parameters>
+            <template translate="label">
+                <label>Template</label>
+                <visible>1</visible>
+                <type>select</type>
+                <value>home/banner.phtml</value>
+                <values>
+                    <default translate="label">
+                        <value>home/banner.phtml</value>
+                        <label>Template Padrão</label>
+                    </default>
+                </values>
+            </template>
+        </parameters>
+    </banner>
+</widgets>

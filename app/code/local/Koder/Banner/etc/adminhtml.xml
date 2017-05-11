@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<config>
+    <menu>
+        <cms module="cms">
+            <children>
+                <banner translate="title" module="banner">
+                    <title>Banners</title>
+                    <action>banner/adminhtml_banner</action>
+                    <sort_order>50</sort_order>
+                </banner>
+            </children>
+        </cms>
+    </menu>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <cms module="cms">
+                        <children>
+                            <banner translate="title" module="banner">
+                                <title>Banners</title>
+                                <sort_order>50</sort_order>
+                            </banner>
+                        </children>
+                    </cms>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>
