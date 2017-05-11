@@ -6,4 +6,8 @@ composer.phar
 # composer.lock
 
 .idea
-/store
+/store/vendor
+/store/composer.lock
+/store/var/cache
+/store/var/log
+/store/var/session

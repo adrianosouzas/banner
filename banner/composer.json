@@ -1,0 +1,20 @@
+{
+    "name": "koder/banner",
+    "description": "Módulo de banner para Magento 1.x",
+    "authors": [
+        {
+            "name": "Adriano Souza",
+            "email": "adrianos_s@yahoo.com.br"
+        }
+    ],
+    "type":"magento-module",
+    "require":{
+        "magento-hackathon/magento-composer-installer":"*"
+    },
+    "extra":{
+        "map":[
+            ["app/etc/modules/Koder_Banner.xml", "app/etc/modules/Koder_Banner.xml"],
+            ["app/code/local/Koder/Banner/", "app/code/local/Koder/Banner/"]
+        ]
+    }
+}

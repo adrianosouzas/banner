@@ -1,0 +1,19 @@
+{
+    "require": {
+        "magento-hackathon/magento-composer-installer":"*",
+        "koder/banner":"dev-master"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/magento-hackathon/magento-composer-installer"
+        },
+        {
+            "type": "vcs",
+            "url": "../"
+        }
+    ],
+    "extra":{
+        "magento-root-dir": "/"
+    }
+}
